@@ -48,12 +48,18 @@ figure figcaption{
 
 nav{
 	background-color:white;
+	padding:0;
 }
-nav ul{
+nav  ul{
 	margin:0;
 	padding:0;
+	width:600px;
 	list-style-type:none;
 	text-align:center;
+}
+nav > ul{
+	width:600px;
+	margin:auto;
 }
 nav ul li{
 	display:table-cell;
@@ -78,6 +84,9 @@ nav ul li ul{
 	max-height:0px;
 	background-color:red;
 	transition:max-height 1s;
+}
+nav ul li ul li a{
+		background-color:#e3e3e3;	
 }
 nav ul li:hover ul{
 	max-height:300px;
