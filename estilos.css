@@ -1,3 +1,7 @@
+body{
+	font-family:sans, arial, helvetica;
+}
+
 ul#menu, aside, main, figure, figcaption{box-sizing:border-box}
 ul#menu, aside, main{
 	vertical-align:text-top;padding:15px 5px 5px 5px}
@@ -53,7 +57,7 @@ nav{
 nav  ul{
 	margin:0;
 	padding:0;
-	width:600px;
+	width:150px;
 	list-style-type:none;
 	text-align:center;
 }
@@ -75,7 +79,7 @@ nav ul li a{
 }
 nav ul li a:hover{
 	color:white;
-	background-color:black;
+	background-color:#73d216;
 	font-weight:bold;
 }
 nav ul li ul{
@@ -83,10 +87,11 @@ nav ul li ul{
 	overflow:hidden;
 	max-height:0px;
 	background-color:red;
+	box-shadow: 10px 10px 5px #888888;
 	transition:max-height 1s;
 }
 nav ul li ul li a{
-		background-color:#e3e3e3;	
+		background-color:#888a85;	
 }
 nav ul li:hover ul{
 	max-height:300px;
